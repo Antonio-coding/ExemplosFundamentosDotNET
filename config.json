@@ -1,4 +1,7 @@
 {
   "VersaoProjeto": "v1",
-  "Autor": "Thiago"
+  "Autor": "Thiago",
+  "files.exclude": {
+    "**/.vscode": false
+  }
 }
