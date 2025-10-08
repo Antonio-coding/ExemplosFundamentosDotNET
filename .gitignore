@@ -1,2 +1,22 @@
+# Build results
+[Bb]in/
+[Oo]bj/
 bin
-.bin
+*bin
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+[Nn]uget/
+*.nupkg
+*.snupkg
+packages/
+
+# OS files
+Thumbs.db
+.DS_Store
