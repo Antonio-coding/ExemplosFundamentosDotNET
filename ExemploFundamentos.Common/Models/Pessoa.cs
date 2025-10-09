@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ExemplosFundamentosDotNET.PessoaCopia
+namespace ExemploFundamentos.Common.Models
 {
     public class Pessoa
     {
@@ -11,7 +11,7 @@ namespace ExemplosFundamentosDotNET.PessoaCopia
         public int Idade { get; set; }
 
         public void Apresentar()
-        { 
+        {
             Console.WriteLine($"Óla , meu nome é {Nome}, e tenho {Idade} anos");
         }
     }
