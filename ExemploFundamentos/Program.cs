@@ -1,27 +1,89 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-int[] arrayInteiros = new int[4];
+List<string> listaString = new List<string>
+();
 
-arrayInteiros[0] = 12;
-arrayInteiros[1] = 15;
-arrayInteiros[2] = 155;
-arrayInteiros[3] = 12;
+listaString.Add("SP");
+listaString.Add("PE");
+listaString.Add("MG");
 
-Console.WriteLine("Percorrer o Array com o FOR");
+Console.WriteLine($"Itens na minha lista : {listaString.Count}- Capacidade: {listaString.Capacity}");
 
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
-{
-    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
-}
+listaString.Add("AM");
+Console.WriteLine($"Itens na minha lista : {listaString.Count}- Capacidade: {listaString.Capacity}");
 
-Console.WriteLine("Percorrer o Array com o FOREACH");
+listaString.Add("DF");
+Console.WriteLine($"Itens na minha lista : {listaString.Count}- Capacidade: {listaString.Capacity}");
+listaString.Add("RJ");
 
-int contadorForEach = 0;
-foreach (int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº {contadorForEach} - {valor}");
-    contadorForEach++;
-}
+
+
+
+
+// Console.WriteLine("Percorrendo a lista com o for");
+// for (int contador = 0; contador <= listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição {contador} - {listaString[contador]}");
+// }
+
+// int contadorForEach = 0;
+
+// foreach (string item in listaString)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForEach} - {item}");
+//     contadorForEach++;
+// }
+
+
+
+
+
+
+
+
+
+
+// int[] arrayInteiros = new int[4];
+
+// arrayInteiros[0] = 12;
+// arrayInteiros[1] = 15;
+// arrayInteiros[2] = 155;
+// arrayInteiros[3] = 12;
+
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+// // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Console.WriteLine("Percorrer o Array com o FOR");
+
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Console.WriteLine("Percorrer o Array com o FOREACH");
+
+// int contadorForEach = 0;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForEach} - {valor}");
+//     contadorForEach++;
+// }
 
 
 
